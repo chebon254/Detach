@@ -90,6 +90,7 @@ main{
     height: fit-content;
     width: 100%;
 }
+/* == Banner == */
 .banner{
     height: fit-content;
     width: 100%;
@@ -127,6 +128,7 @@ main{
     padding: 0px 8px;
     border-radius: 10px;
     background: -webkit-linear-gradient(#fd3e45, #ac00fd);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -162,6 +164,88 @@ main{
     color: #A6A9B8;
     margin: 10px 0px;
 }
-/* == Banner == */
-
 /* == || Banner == */
+/* == Steps == */
+.steps{
+    padding: 40px 0px;
+    width: 100%;
+    height: fit-content;
+}
+.steps-container{
+    height: fit-content;
+}
+.steps-headline{
+    padding: 20px 0px;
+}
+.steps-headline p:nth-child(1){
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;text-align: center;
+    width: 100%;
+    max-width: 500px;
+    min-width: 280px;
+    margin: 0px auto 10px;
+}
+.steps-headline p:nth-child(1) span{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 8px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#fd3e45, #ac00fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.steps-headline p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color: #A6A9B8;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    min-width: 280px;
+    margin: 10px auto 0px;
+    line-height: 24px;
+}
+.steps-content{
+    width: 100% !important;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.step-card{
+    width: 30% !important;
+    min-width: 290px;
+    max-width: 350px;
+    height: 196px;
+    border-radius: 10px;
+    background-color: #171820;
+    margin: 10px 0px;
+    padding: 16px;
+}
+.step-card .top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.step-card .top span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 0px 10px;
+}
+.step-card .top img{
+    width: 50px;
+}
+.step-card .bottom{
+    padding-left: 60px;
+}
+.step-card .bottom p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9FA2B1;
+    line-height: 28px;
+}
+/* == || Steps == */
