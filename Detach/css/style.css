@@ -249,3 +249,139 @@ main{
     line-height: 28px;
 }
 /* == || Steps == */
+/* == Image Display == */
+.image-display{
+    padding: 40px 0px;
+    width: 100%;
+    height: fit-content;
+}
+.display-container{
+    height: fit-content;
+    width: 100% !important;
+}
+.display-headline{
+    padding: 20px 0px;
+}
+.display-headline p{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    min-width: 280px;
+    margin: 0px 0px 10px;
+}
+.display-headline p span{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 8px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#fd3e45, #ac00fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.img-disp-content{
+    height: fit-content;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.display-card{
+    height: fit-content;
+    width: 280px !important;
+    margin: 16px 0px;
+}
+.display-card span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 0px;
+}
+/* == || Image Display == */
+/* == Online Tool == */
+.online-tool{
+    padding: 40px 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: #171820;
+}
+.onl-tl-container{
+    height: fit-content;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+.online-image{
+    margin: 0px 0px 20px;
+}
+.online-image, .online-image img{
+    width: 100%;
+    max-width: 523px;
+    min-width: 280px;
+}
+.online-text{
+    height: 100%;
+    max-height: 532px;
+    min-height: 280px;
+    width: 100%;
+    max-width: 560px;
+    min-width: 280px;
+    padding: 0px 0px 0px 20px;
+}
+.online-text p:nth-child(1){
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    min-width: 280px;
+    margin: 0px 0px 10px;
+}
+.online-text p span{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 8px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#fd3e45, #ac00fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-text p:nth-child(2),
+.online-text p:nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    color: #A6A9B8;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    min-width: 280px;
+    margin: 10px 0px;
+    line-height: 24px;
+}
+.online-text button{
+    height: 52px;
+    width: 210px;
+    margin: 16px 0px 10px;
+    border-radius: 8px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fd3e45+0,ac00fd+100 */
+    background: #fd3e45; /* Old browsers */
+    background: -moz-linear-gradient(left,  #fd3e45 0%, #ac00fd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #fd3e45 0%,#ac00fd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #fd3e45 0%,#ac00fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd3e45', endColorstr='#ac00fd',GradientType=1 ); /* IE6-9 */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* == || Online Tool == */
